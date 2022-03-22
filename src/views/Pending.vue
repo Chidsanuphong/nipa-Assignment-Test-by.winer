@@ -62,39 +62,7 @@
         </v-flex>
       </v-layout>
     </v-card>
-    <!-- <v-data-table
-      :headers="headers"
-      :items="order"
-      
-      disable-pagination
-      :hide-default-footer="true"
-    >     
-      </v-data-table> -->
-            <!-- <template v-slot:[`item.actions`]=" {item} ">
-              <td class="justify-space-around layout">
-                <v-icon
-                  color="light-green accent-4"
-                  class="mr-2"
-                  @click="submitTicket(item)"
-                >
-                  done
-                </v-icon>
-                <v-icon
-                  small
-                  color="warning"
-                  class="mr-2"
-                  @click="editedTicket(item)"
-                >
-                  edit
-                </v-icon>
-                <v-icon
-                  color="error"
-                  @click="deletes"
-                >
-                  delete
-                </v-icon>
-              </td>
-            </template> -->
+    
     <v-dialog v-model="dialog1" persistent max-width="600px">
       <v-card>
         <v-card-title>
