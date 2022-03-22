@@ -24,11 +24,6 @@
           
     </v-app-bar>
 
-
-
-       <!-- addchart -->
-
-
     <v-navigation-drawer v-model="drawer" absolute >
     <v-list-item-group color="pink accent-2">
 
@@ -96,32 +91,7 @@
       </v-list-item>
 
     </v-list-item-group>
-    </v-navigation-drawer>
-
-
-    <!-- <v-app-bar app color="pink lighten-2" dark elevation="5">
-        <v-app-bar-nav-icon @click="drawer=!drawer"/>
-        <v-toolbar-title class="headline">
-          <span>Nipa Ticket management</span>
-        </v-toolbar-title>
-        <v-spacer></v-spacer>
-        <span>By.ชิษณุพงศ์</span>
-    </v-app-bar> -->
-
-
-    
-
-
-    <!-- <v-main >
-      
-        <v-container mb-6>
-          <router-view></router-view>
-        </v-container>
-      
-    </v-main> -->
-
-    
-
+    </v-navigation-drawer> 
   </v-app>
 </template>
 <script>
